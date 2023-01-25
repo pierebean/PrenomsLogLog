@@ -40,7 +40,7 @@ sexe=1
 #sexe=2
 
 #importer CSV de l'INSEE fichier csv
-df= pd.read_csv(r'C:\Users\PIALL\OneDrive - Vaisala Oyj\perso\prénoms\nat2019.csv', sep=';')
+df= pd.read_csv(r'C:\workspaces\github_perso\PrenomsLogLog\nat2019.csv', sep=';')
 # j'enlève les Nan
 df = df.dropna()
 
